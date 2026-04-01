@@ -1,0 +1,5 @@
+{
+  "name": "CodeSentinel AI",
+  "description": "AI-powered code reviewer that works like a senior engineer, using static analysis and multi-agent pipelines.",
+  "requestFramePermissions": []
+}

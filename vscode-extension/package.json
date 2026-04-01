@@ -1,0 +1,51 @@
+{
+  "name": "codesentinel",
+  "displayName": "CodeSentinel AI Reviewer",
+  "description": "AI-powered code reviews directly in VS Code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codesentinel.reviewFile",
+        "title": "CodeSentinel: Review Current File"
+      },
+      {
+        "command": "codesentinel.setApiKey",
+        "title": "CodeSentinel: Set API Key"
+      }
+    ],
+    "configuration": {
+      "title": "CodeSentinel",
+      "properties": {
+        "codesentinel.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "Your CodeSentinel API Key"
+        },
+        "codesentinel.apiUrl": {
+          "type": "string",
+          "default": "https://ais-dev-23dbf7rsf5fmizqmxr53o2-335762143281.asia-east1.run.app",
+          "description": "CodeSentinel API URL"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.75.0",
+    "@types/node": "16.x",
+    "typescript": "^4.9.5"
+  }
+}

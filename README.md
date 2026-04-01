@@ -322,16 +322,12 @@ Please follow the [Conventional Commits](https://www.conventionalcommits.org/) s
 
 ---
 
-## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-Built with ❤️ by **Satyam Kadavla**
-
-[LinkedIn](https://linkedin.com/in/satyamkadavla) • [GitHub](https://github.com/satyamkadavla)
+Built with ❤️ by **Satyam Kadavla and that team**
 
 </div>
